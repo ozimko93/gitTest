@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 28pt;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(119, 156, 237, 0.122);
+  display: flex;
+  flex-basis: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.content {
+  background-color: rgba(250, 235, 215, 0.552);
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top {
+  margin-top: 55px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60%;
+  padding-bottom: 10px;
+}
+
+.addition {
+  background-color: rgba(233, 201, 105, 0.407);
+  margin: 10px 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last {
+  width: 100%;
+}
+
+.aside {
+  background-color: rgba(145, 208, 120, 0.278);
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+footer {
+  background-color: rgba(119, 156, 237, 0.122);
+  display: flex;
+  flex-basis: 20%;
+}
+
+.section {
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
